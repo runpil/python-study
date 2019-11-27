@@ -7,7 +7,7 @@ $ python --version
 ```
 
 ## 2. sys 모듈 이용
-```python
+```
 import sys
 print(sys.version_info)
 print(sys.version)

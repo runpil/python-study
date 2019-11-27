@@ -1,13 +1,13 @@
 # Better way 01 사용중인 파이썬의 버전을 알자
 
-## --version 플래그 이용
+## 1. --version 플래그 이용
 ```
 $ python --version
 >>> Python 3.6.2 :: Anaconda, Inc.
 ```
 
-## sys 모듈 이용
-```
+## 2. sys 모듈 이용
+```python
 import sys
 print(sys.version_info)
 print(sys.version)

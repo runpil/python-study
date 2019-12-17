@@ -114,7 +114,7 @@ Hello, world! (입력)
 ```
 
 ### 두 숫자의 합 구하기
-```python
+```
 a = input('첫 번째 숫자를 입력하세요: ')
 b = input('두 번째 숫자를 입력하세요: ')
 
@@ -149,7 +149,7 @@ print(a + b)
 - 변수1, 변수2 = input().split('기준문자열')
 - 변수1, 변수2 = input('문자열').split()
 - 변수1, 변수2 = input('문자열').split('기준문자열')
-```python
+```
 a, b = input('문자열 두 개를 입력하세요: ').split()    # 입력받은 값을 공백을 기준으로 분리
 
 print(a)
@@ -162,7 +162,7 @@ Python
 ```
 
 ### 두 숫자의 합 구하기
-```python
+```
 a, b = input('숫자 두 개를 입력하세요: ').split()
 
 print(a + b)
@@ -175,7 +175,7 @@ print(a + b)
 - input에서 입력받은 값은 문자열이고, 이 문자열은 split으로 분리해도 문자열이기 때문
 
 # 입력 값을 정수로 변환하기
-```python
+```
 a, b = input('숫자 두 개를 입력하세요: ').split()
 a = int(a)
 b = int(b)
@@ -192,7 +192,7 @@ print(a + b)
 - 변수1, 변수2 = map(int, input().split('기준문자열'))
 - 변수1, 변수2 = map(int, input('문자열').split())
 - 변수1, 변수2 = map(int, input('문자열').split('기준문자열'))
-```python
+```
 a, b = map(int, input('숫자 두 개를 입력하세요: ').split())
 
 print(a + b)
@@ -203,7 +203,7 @@ print(a + b)
 ```
 
 ### 입력받은 값을 콤마 기준으로 분리하기
-```python
+```
 a, b = map(int, input('숫자 두 개를 입력하세요: ').split(','))
 
 print(a+ b)

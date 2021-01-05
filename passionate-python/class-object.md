@@ -119,9 +119,9 @@
     type(Simple)  # Simple 클래스 전달하는 상황
     <class 'type'>
 
-    # 클래스도 객체이다.
-    # 클래스는 type이라는 클래스의 객체이다.
     simple2 = Simple  # 변수 simple2에 클래스 Simple 담음
     s1 = Simple()  # 클래스 Simple로 객체 생성
     s2 = simple2()  # 변수 simple2로도 객체 생성할 수 있음
     ```
+    - 클래스도 객체이다.
+    - 클래스는 type이라는 클래스의 객체이다.
